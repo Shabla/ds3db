@@ -1,0 +1,9 @@
+<h2>Dashboard</h2>
+<h3>Top Items</h3>
+<div class="grid">
+	<div *ngFor="#item of items" (click)="goToDetail(item)">
+		<div class="item">
+			<h4>{{item.name}}</h4>
+		</div>
+	</div>
+</div>

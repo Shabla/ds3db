@@ -1,0 +1,45 @@
+.items {
+	list-style-type: none;
+	padding: 0;
+	margin: 1em;
+	width: 10em;
+}
+
+.item {
+	height: 2em;
+	line-height: 2em;
+	font-sze: 1.6em;
+	background-color: #ddd;
+	margin: 0.5em 0;
+	padding-right: 0.5em;
+	border-radius: 0.2em;
+}
+
+.item.selected {
+	background-color: yellow;
+}
+
+.item.selected span {
+	background-color: orange;
+}
+
+.item span {
+	background-color: #333;
+	color: white;
+	width: 2em;
+	line-height: 2em;
+	display: inline-block;
+	text-align: center;
+	margin-right: 0.5em;
+	border-top-left-radius: 0.2em;
+	border-bottom-left-radius: 0.2em;
+}
+
+.item:hover {
+	background-color: cyan;
+	cursor: pointer;
+}
+
+.item:hover span {
+	background-color: magenta;
+}

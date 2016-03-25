@@ -1,0 +1,11 @@
+<h2>Items</h2>
+<ul class="items">
+	<li class="item" [class.selected]="item === selectedItem" *ngFor="#item of items" (click)="onSelect(item)">
+		<span>{{item.id}}</span> {{item.name}}
+	</li>
+</ul>
+
+<div *ngIf="selectedItem">
+	<h3>gotta love {{selectedItem.name | uppercase}}</h3>
+	<button (click)="goToDetail()">View details</button>
+</div>
