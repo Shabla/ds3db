@@ -1,0 +1,302 @@
+{
+	"zones": [
+		{"id": 0, "name": "Cemetery of Ash"},
+		{"id": 1, "name": "Firelink Shrine"},
+		{"id": 2, "name": "High Wall of Lothric"},
+		{"id": 3, "name": "Undead Settlement"},
+		{"id": 4, "name": "Road of Sacrifices"}
+	],
+
+	"tokens": {
+		"Ashen Estus Flask": {
+			"fextralife": "http://darksouls3.wiki.fextralife.com/Ashen+Estus+Flask",
+			"wikidot": "http://darksouls3.wikidot.com/ashen-estus-flask"
+		},
+		"Iudex Grundyr": {
+			"fextralife": "http://darksouls3.wiki.fextralife.com/Iudex+Gundyr",
+			"wikidot": "http://darksouls3.wikidot.com/iudex-gundyr"
+		},
+		"Coiled Sword": {
+			"fextralife": "http://darksouls3.wiki.fextralife.com/Coiled+Sword",
+			"wikidot": "http://darksouls3.wikidot.com/coiled-sword"
+		},
+		"Sword Master Saber": {
+			"fextralife": "http://darksouls3.wiki.fextralife.com/Sword+Master",
+			"wikidot": "http://darksouls3.wikidot.com/enemygroup:sword-master"
+		},
+		"Uchigatana": {
+			"fextralife": "",
+			"wikidot": ""
+		},
+		"Master's Attire": {
+			"fextralife": "",
+			"wikidot": ""
+		},
+		"Master's Gloves": {
+			"fextralife": "",
+			"wikidot": ""
+		}
+	},
+
+	"steps": [
+		{
+			"zoneId": 0,
+			"text": "Create your character, pick any gift"
+		},
+		{
+			"zoneId": 0,
+			"text": "Proceed forward and find the Ashen Estus Flask on a corpse",
+			"tags": ["item", "consumable"]
+		},
+		{
+			"zoneId": 0,
+			"text": "Defeat Iudex Grundyr to receive 3000 souls and Coiled Sword",
+			"tags": ["boss", "item"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Kill Sword Master Saber to get 2000 souls, Uchigatana, Master's Attire and Master's Gloves",
+			"tags": ["npc", "item", "weapon", "armor"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Enter inside Firelink Shrine",
+			"tags": []
+		},
+		{
+			"zoneId": 1,
+			"text": "Talk to Andre and exhaust his dialog to receive the Hurrah! gesture",
+			"tags": ["npc", "gesture"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Talk to the Shrine Handmaid and exhaust her dialog",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Exhaust the Shrine Handmaid dialog",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Use the Coiled Sword at the Firelink bonfire and travel to the High Wall of Lothric. You will receive the Rest gesture from sitting at the bonfire for the first time",
+			"tags": ["gesture"]
+		},
+		{
+			"zoneId": 2,
+			"text": "Get an Estus Shard from the anvil",
+			"tags": ["item", "consumable"]
+		},
+		{
+			"zoneId": 2,
+			"text": "Get the Cell Key from a corpse",
+			"tags": ["item"]
+		},
+		{
+			"zoneId": 2,
+			"text": "Use the Cell Key to unlock the door to Greirat cell and exhaust his dialog. Accept his request and receive the Blue Tearstone ring",
+			"tags": ["npc", "item", "ring"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Travel back to Firelink Shrine and exhaust the dialog of Greirat",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Talk to Leonhard and exhaust his dialog",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 2,
+			"text": "Travel back to the High Wall of Lothric and defeat Vordt of the Boreal Valley to receive 3000 souls and Soul of Boreal Valley Vordt",
+			"tags": ["boss", "item"]
+		},
+		{
+			"zoneId": 2,
+			"text": "Talk to Emma and exhaust her dialog to get the Way of the Blue covenant item and the Small Lothric Banner",
+			"tags": ["npc", "item", "covenant"]
+		},
+		{
+			"zoneId": 2,
+			"text": "Go back to the boss room and raise the banner beyond the door",
+			"tags": []
+		},
+		{
+			"zoneId": 3,
+			"text": "Talk to Yoel and exhaust his dialog",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find the Estus Shard on a corpse near the burning tree",
+			"tags": ["item", "consumable"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find Loretta's Bone on a corpse hung outside of the burning tree",
+			"tags": ["item"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find the Fire Clutch ring on a corpse behind the gallows",
+			"tags": ["item", "ring"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find the Fire Clutch ring on a corpse behind the gallows.",
+			"tags": ["item"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Make sure you're embered and kill Mad Invader Hodrick near the Dilapidated Bridge bonfire",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find Eygon and exhaust his dialog",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Make sure you're light and your HP is full and fall down the pit behind Eygon.",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Kill the Giant Rat to get the Bloodbite Ring",
+			"tags": ["item", "ring"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find Irina and exhaust her dialog to receive the Prayer gesture",
+			"tags": ["npc", "gesture"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find the Warriors of Sunlight covenant item.",
+			"tags": ["item", "covenant"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find Siegward inside the white church and exhaust his dialog",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Find the Giant who shoots arrows and make peace",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 3,
+			"text": "While coming down from talking to the giant, drop on the ledge to talk to Siegward again and exhaust his dialog",
+			"tags": ["npc"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Fight the miniboss and the speak to Siegward again to receive the Toast gesture",
+			"tags": ["npc", "gesture"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Siegward will start sleeping, talk to him again to get the Sleep gesture",
+			"tags": ["npc", "gesture"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Get a Pale Tongue from a hanging corpse",
+			"tags": ["item"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Get the Northern Armor set from the other hanging corpse",
+			"tags": ["item", "armor"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Get the Flynn's Ring on a corpse on the roof",
+			"tags": ["item", "ring"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Drop down the tower and get 3 pieces of the Mirrah Armor set",
+			"tags": ["item", "armor"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Get the Chloranthy Ring from another corpse nearby",
+			"tags": ["item", "ring"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Get the Flame Stoneplate Ring from a hanging corpse by the enemy with a cage on his back",
+			"tags": ["item", "ring"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Enter the cage on the back of that enemy to get the Mound Makers covenant item",
+			"tags": ["covenant"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Get the Cleric Armor set from a corpse",
+			"tags": ["item", "armor"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Get the Mortician's Ashes' from a corpse",
+			"tags": ["item"]
+		},
+		{
+			"zoneId": 3,
+			"text": "Get the Undead Bone Shard from a corpse on the separated patch of land",
+			"tags": ["item"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Travel back to Firelink Shrine and talk to Cornyx",
+			"tags": []
+		},
+		{
+			"zoneId": 1,
+			"text": "Talk to Greirat and give him Loretta's Bone",
+			"tags": []
+		},
+		{
+			"zoneId": 1,
+			"text": "Travel to Firelink Shrine from Firelink Shrine to reload the zone",
+			"tags": []
+		},
+		{
+			"zoneId": 1,
+			"text": "Talk to Cornyx again to get the Welcome gesture",
+			"tags": ["npc", "gesture"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Talk to Greirat again to get the Curl Up gesture",
+			"tags": ["npc", "gesture"]
+		},
+		{
+			"zoneId": 1,
+			"text": "Travel to Firelink Shrine from Firelink Shrine to reload the zone again",
+			"tags": []
+		},
+		{
+			"zoneId": 1,
+			"text": "Talk to Greirat and exhaust his dialog and then send him to pillage",
+			"tags": []
+		},
+		{
+			"zoneId": 3,
+			"text": "Travel to Dilapidated Bridge bonfire and kill the Curse-Rotten Greatwood boss to get 7000 souls, Transposing Kiln and Soul of the Rotted Greatwood",
+			"tags": ["boss", "item"]
+		},
+		{
+			"zoneId": 4,
+			"text": "After the boss fight, get to the Road of Sacrifices bonfire.",
+			"tags": []
+		},
+	]
+}
