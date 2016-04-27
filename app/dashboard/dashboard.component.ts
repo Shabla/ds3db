@@ -2,12 +2,12 @@ import {Component} from 'angular2/core';
 import {OnInit} from 'angular2/core';
 import {Router} from 'angular2/router';
 
-import {ItemService} from './item.service';
-import {Item} from './item';
+import {ItemService} from '../item/item.service';
+import {Item} from '../item/item';
 
 @Component({
 	selector: 'dashboard',
-	templateUrl: 'app/dashboard.component.html'
+	templateUrl: 'app/dashboard/dashboard.component.html'
 })
 export class DashboardComponent implements OnInit {
 	items: Item[] = [];

@@ -1,20 +1,20 @@
 import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS} from 'angular2/router';
 import {Component} from 'angular2/core';
 
-import {DashboardComponent} from './dashboard.component';
-import {ItemsComponent} from './items.component';
-import {ItemService} from './item.service';
-import {ItemDetailComponent} from './item-detail.component';
+import {DashboardComponent} from '../dashboard/dashboard.component';
+import {ItemsComponent} from '../items/items.component';
+import {ItemService} from '../item/item.service';
+import {ItemDetailComponent} from '../item-detail/item-detail.component';
 
 @Component({
-	selector: 'my-app',
+	selector: 'app',
 	directives: [ROUTER_DIRECTIVES],
 	providers: [
 		ROUTER_PROVIDERS,
 		ItemService
 	],
-	styleUrls: ['app/app.component.css'],
-	templateUrl: 'app/app.component.html'
+	styleUrls: ['app/app/app.component.css'],
+	templateUrl: 'app/app/app.component.html'
 })
 @RouteConfig([
 	{
@@ -33,5 +33,5 @@ import {ItemDetailComponent} from './item-detail.component';
 	}
 ])
 export class AppComponent {
-	title = 'Dark Souls 3 Database';
+	title = 'title';
 }

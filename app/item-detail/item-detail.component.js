@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/router', './item.service'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/router', '../item/item.service'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -41,8 +41,8 @@ System.register(['angular2/core', 'angular2/router', './item.service'], function
                 ItemDetailComponent = __decorate([
                     core_1.Component({
                         selector: 'item-detail',
-                        styleUrls: ['app/item-detail.component.css'],
-                        templateUrl: 'app/item-detail.component.html'
+                        styleUrls: ['app/item-detail/item-detail.component.css'],
+                        templateUrl: 'app/item-detail/item-detail.component.html'
                     }), 
                     __metadata('design:paramtypes', [item_service_1.ItemService, router_1.RouteParams])
                 ], ItemDetailComponent);

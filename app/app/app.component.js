@@ -1,4 +1,4 @@
-System.register(['angular2/router', 'angular2/core', './dashboard.component', './items.component', './item.service', './item-detail.component'], function(exports_1, context_1) {
+System.register(['angular2/router', 'angular2/core', '../dashboard/dashboard.component', '../items/items.component', '../item/item.service', '../item-detail/item-detail.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -35,18 +35,18 @@ System.register(['angular2/router', 'angular2/core', './dashboard.component', '.
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.title = 'Dark Souls 3 Database';
+                    this.title = 'title';
                 }
                 AppComponent = __decorate([
                     core_1.Component({
-                        selector: 'my-app',
+                        selector: 'app',
                         directives: [router_1.ROUTER_DIRECTIVES],
                         providers: [
                             router_1.ROUTER_PROVIDERS,
                             item_service_1.ItemService
                         ],
-                        styleUrls: ['app/app.component.css'],
-                        templateUrl: 'app/app.component.html'
+                        styleUrls: ['app/app/app.component.css'],
+                        templateUrl: 'app/app/app.component.html'
                     }),
                     router_1.RouteConfig([
                         {

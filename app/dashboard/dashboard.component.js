@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/router', './item.service'], function(exports_1, context_1) {
+System.register(['angular2/core', 'angular2/router', '../item/item.service'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -43,7 +43,7 @@ System.register(['angular2/core', 'angular2/router', './item.service'], function
                 DashboardComponent = __decorate([
                     core_1.Component({
                         selector: 'dashboard',
-                        templateUrl: 'app/dashboard.component.html'
+                        templateUrl: 'app/dashboard/dashboard.component.html'
                     }), 
                     __metadata('design:paramtypes', [item_service_1.ItemService, router_1.Router])
                 ], DashboardComponent);

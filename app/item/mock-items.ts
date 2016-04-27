@@ -1,4 +1,4 @@
-import {Item} from './item';
+import {Item} from './item/item';
 
 export var ITEMS: Item[] = [
 	{id: 11, name: 'Shortsword'},

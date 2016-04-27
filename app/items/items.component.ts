@@ -1,15 +1,15 @@
 import {Component, OnInit} from 'angular2/core';
 import {Router} from 'angular2/router';
 
-import {Item} from './item';
-import {ItemDetailComponent} from './item-detail.component';
-import {ItemService} from './item.service';
+import {Item} from '../item/item';
+import {ItemDetailComponent} from '../item-detail/item-detail.component';
+import {ItemService} from '../item/item.service';
 
 @Component({
 	selector: 'my-items',
 	directives: [ItemDetailComponent],
-	styleUrls: ['app/items.component.css'],
-	templateUrl: 'app/items.component.html'
+	styleUrls: ['app/items.component/items.component.css'],
+	templateUrl: 'app/items.component/items.component.html'
 })
 export class ItemsComponent implements OnInit {
 	public items: Item[];
