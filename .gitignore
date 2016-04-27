@@ -1,2 +1,5 @@
 # Dependency directory
 node_modules
+
+# TypeScript typings
+typings
